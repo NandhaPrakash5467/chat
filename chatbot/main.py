@@ -19,7 +19,7 @@ def chatbot():
         return jsonify({'answer': answer})
     except Exception as e:
         print('Error:', e)
-        return jsonify({'answer': 'Server error. Try again later.'}), 500
+        return jsonify({'answer': 'Server error. Try again later22.'}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
